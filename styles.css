@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    position: absolute;
+    background-color: rgb(164, 200, 216);
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    background-image: url(sidebarbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.sidebar nav{
+    padding: 40px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.main{
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(bgimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.container{
+    display:flex;
+}
+
+.infoContainer{
+    /*background-color: rgb(159, 40, 159);*/
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 300px;
+}
+
+.devInfo{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'EB Garamond', serif;
+}
+
+.hello{
+    font-size: 3em;
+    font-family: 'EB Garamond', serif;
+}
+
+.name{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Aboreto', cursive;
+}
+
+.about{
+    font-size: 2.5em;
+}
+
+.moreabout{
+    font-size: 2em;
+    margin-top: 23px;
+    font-family: 'EB Garamond', serif;
+
+}
+
+.buttons{
+    margin-top: 34px;
+    font-size: 9px;
+}
+
+.btn{
+    padding: 9px 14px;
+    border-radius: 15px;
+    color: white;
+    background-color: blue;
+    font-size: 2em;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn-sm{
+    font-size: 15px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+.devPic img{
+   height: 58vh;
+}
+
+.contactform h1{
+    font-family: 'Aboreto', cursive;
+    padding-top: 50px;
+
+}
+
+.contactform{
+    font-size: 20px;
+    padding: 0 100px;
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+    margin: 0 50px;
+}
+
+.contactform  form div{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contactform form div input{
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+.contactform form{
+    margin: 0 40px;
+}
+
+#emailHelp{
+    font-size: 15px;
+    color: darkorchid;
+    
+}
+
+.blogItem{
+    margin:20px ;
+    font-family: 'EB Garamond', serif;
+    font-size: 25px;
+    padding-top: 3px;
+}
+
+.blogContainer{
+    margin: 0 88px;
+    padding-top: 50px;
+}
+
+h1{
+    font-family: 'Aboreto', cursive;
+    margin: 23px;
+}
+
+p{
+    font-family:'EB Garamond', serif;
+}
+
+.intro{
+    padding-top: 50px;
+    margin: 0 88px;
+}
+
+.intro h1{
+    font-family: 'Aboreto', cursive;
+    margin: 12px;
+    font-size: 40px;
+
+}
+
+.intro h2{
+    font-family: 'Aboreto', cursive;
+    margin: 12px;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.intro p{
+    font-family:'EB Garamond', serif;
+    margin: 12px;
+    font-size: 25px;
+    font-weight: 550;
+}
+.projects{
+    margin: -30px 90px;
+
+}
+.probody{
+    font-family:'EB Garamond', serif;
+    font-size: 25px;
+    font-weight:599;
+    margin: 50px 90px;
+    padding-left: 10px;
+}
+.projects h2{
+    font-family: 'Aboreto', cursive;
+    margin: 12px ;
+    font-size: 30px;
+    padding-top: 30px;
+    
+}
+
+
+.skillcontainer{
+    padding: 10px;
+    font-size: 25px;
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    
+}
+
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    margin-left: 20px;
+}
+
+.hundred{
+    width: 265px;
+    background-color: blue;
+}
+
+.fifty{
+    width: 125px;
+    background-color: rgb(31, 27, 143);
+}
+.seventy{
+    width: 175px;
+    background-color: rgb(243, 15, 15);
+}
+
+.tr5{
+    width: 100px;
+    background-color: rgb(143, 246, 17);
+}
+
+.sidebarGo{
+        transform: translate(-443px,0px);
+        position: absolute;
+}
+
+.ham{
+   margin-left: 10px;
+   margin-top: 10px;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+
+}
+
+.cross{
+    margin-left: 170px;
+    margin-top: 10px;
+}
+
+@media (max-width: 1415px) {
+    .buttons{
+        font-size: 6px;
+    }
+    .devInfo{
+        font-size: 10px;
+    }
+    .devPic{
+        display: none;
+    }
+    .intro, .blogContainer, .contactform{
+        margin: 50px 8px;
+    }
+}
